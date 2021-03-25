@@ -1,3 +1,5 @@
+# 运行失败
+
 from sqlalchemy import create_engine, Column, Integer, String, Table, MetaData, ForeignKey
 from sqlalchemy.orm import relationship, declarative_base
 

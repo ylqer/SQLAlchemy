@@ -15,3 +15,5 @@ stmt = insert(user_table).values(name='spongebob', fullname='Spongebob Squarepan
 print(stmt)
 compiled = stmt.compile()
 print(compiled.params)
+
+

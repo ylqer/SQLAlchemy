@@ -6,4 +6,4 @@ metadata = MetaData()
 some_table = Table("some_table", metadata, autoload_with=engine)
 
 # some_table
-# print(some_table)
+print(some_table)

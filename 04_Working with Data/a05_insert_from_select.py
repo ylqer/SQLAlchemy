@@ -1,14 +1,7 @@
 from sqlalchemy import create_engine, Table, Column, Integer, String, MetaData, select, insert, ForeignKey
-from typing import Callable
 
 engine = create_engine("mysql+pymysql://root:tuttidata@TT2020@127.0.0.1/python", echo=True, future=True)
 metadata = MetaData()
-
-
-# class ATable(Table):
-#     c: Callable
-#     id: Callable
-
 
 user_table = Table(
     "user_account",
